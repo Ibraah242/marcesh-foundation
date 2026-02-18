@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcesh Charty Foundation - Home</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-text">Marcesh Charty Foundation</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-donate" href="#" id="donateBtnNav">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Marcesh Charty Foundation</h1>
+                    <p class="hero-subtitle">Giving Hope, Changing Lives</p>
+                    <p class="hero-text">Supporting orphans and underprivileged children with education, supplies, and hope for a brighter future.</p>
+                    <a href="#about" class="btn btn-hero">Join Our Mission</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Summary -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">About Our Foundation</h2>
+                    <p class="about-text">Marcesh Charty Foundation is dedicated to improving the lives of orphans and underprivileged children in Tanzania. We believe every child deserves access to education, basic necessities, and a hopeful future.</p>
+                    <p class="about-text">Through school visits, donations of supplies, clothing, food, and emotional support, we work to create lasting positive change in the lives of vulnerable children.</p>
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter-section section-padding">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="counter-item">
+                        <i class="fas fa-child"></i>
+                        <h3 class="counter" data-target="1200">0</h3>
+                        <p>Children Helped</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter-item">
+                        <i class="fas fa-school"></i>
+                        <h3 class="counter" data-target="35">0</h3>
+                        <p>Schools Visited</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter-item">
+                        <i class="fas fa-users"></i>
+                        <h3 class="counter" data-target="60">0</h3>
+                        <p>Volunteers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Our Projects</h2>
+            <p class="section-subtitle text-center">Making a difference through targeted initiatives</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>School Supplies Drive</h4>
+                            <p>Providing notebooks, pens, uniforms, and learning materials to children in need across Tanzania.</p>
+                            <a href="projects.html" class="btn-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Clothing Distribution</h4>
+                            <p>Collecting and distributing quality clothing to keep children warm, protected, and confident.</p>
+                            <a href="projects.html" class="btn-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Nutrition Program</h4>
+                            <p>Ensuring children receive nutritious meals to support their growth, health, and learning ability.</p>
+                            <a href="projects.html" class="btn-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CEO Section -->
+    <section class="ceo-section section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="ceo-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="section-title">A Message From Our Founder</h2>
+                    <div class="ceo-message">
+                        <p>"Every child deserves a chance to dream, to learn, and to grow in a nurturing environment. At Marcesh Charty Foundation, we're committed to turning these dreams into reality for orphans and underprivileged children across Tanzania."</p>
+                        <div class="ceo-info">
+                            <h4>Mr. Marcesh Daniel</h4>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial-section section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">What People Say</h2>
+            <p class="section-subtitle text-center">Stories of impact and hope</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"Thanks to the foundation, my children now have uniforms and books for school. They've given us hope when we had none."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h5>Anna M.</h5>
+                            <p>Mother of beneficiaries</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"As a volunteer, I've seen firsthand how our work transforms lives. The joy on these children's faces is priceless."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h5>David K.</h5>
+                            <p>Volunteer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"Our school has received essential supplies for 50 students. The foundation's support has improved attendance and performance."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h5>Mr. Juma</h5>
+                            <p>School Headmaster</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donateSection" class="donation-section section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">Support Our Cause</h2>
+            <p class="section-subtitle text-center">Your donation can change a child's life</p>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="donation-options">
+                        <div class="donation-option">
+                            <div class="donation-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="donation-details">
+                                <h5>M-Pesa</h5>
+                                <p>Send to: <strong>+255 7XX XXX XXX</strong></p>
+                                <p>Name: Marcesh Charty Foundation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="donation-option">
+                            <div class="donation-icon">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <div class="donation-details">
+                                <h5>Airtel Money</h5>
+                                <p>Send to: <strong>+255 7XX XXX XXX</strong></p>
+                                <p>Name: Marcesh Charty Foundation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="donation-option">
+                            <div class="donation-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="donation-details">
+                                <h5>Bank Transfer</h5>
+                                <p>Bank: CRDB Bank</p>
+                                <p>Account: 01XXXXXXXXXX</p>
+                                <p>Account Name: Marcesh Charty Foundation</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="donation-note">
+                        <p><strong>Note:</strong> For donation receipts or more information, please contact us at <a href="mailto:info@marceshfoundation.org">info@marceshfoundation.org</a> or call +255 7XX XXX XXX.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-about">
+                        <h4>Marcesh Charty Foundation</h4>
+                        <p>Helping orphans and underprivileged children by providing education support, supplies, and hope for a better tomorrow.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Dar es Salaam, Tanzania</p>
+                        <p><i class="fas fa-phone"></i> +255 7XX XXX XXX</p>
+                        <p><i class="fas fa-envelope"></i> info@marceshfoundation.org</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="footer-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <p class="newsletter-text">Subscribe to our newsletter for updates</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Marcesh Charty Foundation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
